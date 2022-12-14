@@ -2,14 +2,13 @@
 
 struct student
 {
-   int rollno;
+   int rollno[5];
    char name[20], address[50];
    float marks;
-};
+}s1 , s2;
 
 void main()
 {
-   struct student s1 ,s2;
    printf("enter data for student 1: ");
    scanf("%d %s %f", &s1.rollno , &s1.name , &s1.address, &s1.marks);
    printf("enter data for student 2: ");
